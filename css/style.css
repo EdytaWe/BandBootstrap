@@ -9,7 +9,51 @@ html{
     scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
+    background-color: #333;
+}
+
+.hero-shadow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+
+.orange-color{
+    color: rgb(255, 102, 0);
+}
+
+.navbar-brand{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+.nav-link, .navbar-toggler-icon {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+.navbar-toggler{
+    padding: 1em 2em;
+}
+
+.home{
+    position: relative;
+    z-index: 0;
+    height: 60rem;
+    background-image: url("../images/city.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.home .btn{
+    padding: 1em 2em;
+    text-transform: uppercase;
+    font-size: 1.4em;
+}
+.home .welcome-text{
+    font-size: 2.2rem;
 }
